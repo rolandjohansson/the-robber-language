@@ -1,4 +1,4 @@
-//====== .include() version ======//
+//====== .split() och .include()-version ======//
 
 // document.querySelector('form').addEventListener('submit', function(event) {
 //
@@ -22,7 +22,7 @@
 //
 // }, false);
 
-// ====== keyUp version ====== //
+// ====== .split() och .include() + keyUp-version ====== //
 
 // document.querySelector('textarea').addEventListener('keyup', function(event) {
 //
@@ -46,7 +46,7 @@
 //
 // }, false);
 
-// ====== for loop version ====== //
+// ====== Logisk for loop-version ====== //
 
 // Skapa funktion för att ta in en sträng och returnera den som rövarspråk
 function translateToRobber(text) {
