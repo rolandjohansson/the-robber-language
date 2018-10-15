@@ -7,6 +7,9 @@ textarea {
 textarea[disabled] {
   background-color: white !important;
   color: black !important;
+  &:hover {
+    cursor: text;
+  }
 }
 
 h1 {

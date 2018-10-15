@@ -1,1 +1,1 @@
-textarea{min-height:20vh !important;border:2px solid black !important;border-radius:3px !important}textarea[disabled]{background-color:white !important;color:black !important}h1{font-family:'Rancho';font-size:4em !important}a{color:black;text-decoration:underline}
+textarea{min-height:20vh !important;border:2px solid black !important;border-radius:3px !important}textarea[disabled]{background-color:white !important;color:black !important}textarea[disabled]:hover{cursor:text}h1{font-family:'Rancho';font-size:4em !important}a{color:black;text-decoration:underline}
