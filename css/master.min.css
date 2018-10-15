@@ -1,1 +1,1 @@
-textarea{min-height:20vh !important}h1{font-family:'Rancho'}
+textarea{min-height:20vh !important;border:2px solid black !important;border-radius:3px !important}h1{font-family:'Rancho';font-size:4em !important}a{color:black;text-decoration:underline}
