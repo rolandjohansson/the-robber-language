@@ -53,7 +53,8 @@ function translateToRobber(text) {
 
   // Definiera en array med alla konsonanter
   var consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n',
-  'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z'];
+    'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z'
+  ];
 
   // Tom sträng där vi senare ska lagra resultatet under översättningen
   var result = '';
@@ -83,8 +84,7 @@ function translateToRobber(text) {
 document.querySelector('textarea').addEventListener('keyup', function(event) {
 
   // Stoppa in resultatet från translateToRobber i paragrafen
-  document.querySelector('#output').innerHTML =
-    translateToRobber(event.target.value);
+  document.querySelector('#output').innerHTML = translateToRobber(event.target.value);
 
   /* event innehåller information om händelsen som inträffare. event.target är
   objektet där händelsen inträffade, i det här fallet textarean. */
