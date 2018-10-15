@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <section class="section content">
+  <section class="section hero is-fullheight">
     <div class="container">
       <h1 class="title is-h1 has-text-centered is-size-3-mobile">The Robber Language Translator</h1>
       <img src="img/robber.svg" id="robber" alt="The Robber Language logotype">
@@ -37,17 +37,44 @@
             </div>
           </div>
           <br>
-          <p><i class="fas fa-info-circle"></i> The robber language is probably the most famous <dfn title="A language game is a system of manipulating spoken words to render them incomprehensible to the untrained ear. Language games are used primarily by groups attempting to conceal their conversations from others.">language game</dfn> in Sweden, where it's called "Rövarspråket". The rules are simple so it can be spoken fluently with a little practice: Simply add an "o" after each consonant in every word and then repeat that very same consonant again before moving on to the next letter. I.e. "Hello" becomes "Hohelollolo" in robber language!</p>
+          <p><i class="fas fa-info-circle"></i> The robber language is probably the most famous <dfn title="A language game is a system of manipulating spoken words to render them incomprehensible to the untrained ear. Language games are used primarily by groups attempting to conceal their conversations from others.">language
+              game</dfn> in Sweden, where it's called "Rövarspråket". The rules are simple so it can be spoken fluently with a little practice: Simply add an "o" after each consonant in every word and then repeat that very same consonant again
+            before moving on to the next letter. I.e. "Hello" becomes "Hohelollolo" in robber language!</p>
         </div>
       </div>
     </div>
-    <br>
     <footer class="has-text-centered">
       <small>
         The Robber Language Translator by <a href="https://rolandjohansson.se/" target="_blank">Roland Johansson</a> Copyright &copy; 2018
       </small>
     </footer>
   </section>
+  <!-- <section class="hero is-dark overflow">
+    <div class="container">
+      <br>
+      <h2 class="title is-2">Ze code</h2>
+      <pre><code>function translateToRobber(text) {
+  var consonants = ['b', 'c', 'd', 'f', 'g', 'h',
+    'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's',
+    't', 'v', 'w', 'x', 'z'];
+  var result = '';
+
+  for (i = 0; i < text.length; ++i) {
+    let char = text[i];
+    result += char;
+    if (consonants.includes(char.toLowerCase())) {
+      result += 'o' + char.toLowerCase();
+    }
+  }
+  return result;
+}
+
+document.querySelector('textarea').addEventListener('keyup', function(event) {
+  document.querySelector('#output').innerHTML = translateToRobber(event.target.value);
+});</code></pre>
+      <br>
+    </div>
+  </section> -->
 </body>
 
 </html>
