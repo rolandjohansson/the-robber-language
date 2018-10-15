@@ -28,3 +28,9 @@ a {
   width: auto;
   margin: 1em 1em 3em 1em;
 }
+
+dfn {
+  text-decoration: underline;
+  text-decoration-style: dotted !important;
+  font-style: normal;
+}
