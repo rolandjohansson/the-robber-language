@@ -15,9 +15,16 @@ textarea[disabled] {
 h1 {
   font-family: 'Rancho';
   font-size: 4em !important;
+  margin-bottom: 0 !important;
 }
 
 a {
   color: black;
   text-decoration: underline;
+}
+
+#robber {
+  max-height: 5vh;
+  width: auto;
+  margin: 1em 1em 3em 1em;
 }
