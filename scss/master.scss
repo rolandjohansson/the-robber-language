@@ -4,6 +4,11 @@ textarea {
   border-radius: 3px !important;
 }
 
+textarea[disabled] {
+  background-color: white !important;
+  color: black !important;
+}
+
 h1 {
   font-family: 'Rancho';
   font-size: 4em !important;
